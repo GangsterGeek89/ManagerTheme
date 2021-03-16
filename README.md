@@ -6,8 +6,8 @@ A starter template/boilerplate for quickly styling the manager in piranha cms.
 ## Screenshots
 |         |            |
 | ------------- |:-------------:|
-| ![pages2](/images/pages.png)     | ![pageedit](/images/PageEdit.png) |
-| ![config](/images/Config.png)     | ![media](/images/Media.png)      |
+| ![pages2](/images/Pages.PNG)     | ![pageedit](/images/PageEdit.PNG) |
+| ![config](/images/Config.PNG)     | ![media](/images/Media.PNG)      |
 
 
 
@@ -15,7 +15,7 @@ A starter template/boilerplate for quickly styling the manager in piranha cms.
 ## Add the files to the project
 Copy the manager folder & manager.scss from the *'src'* folder into *'assets/scss'* like below.
 
-![filelocation](/images/filelocation.png)
+![filelocation](/images/FileLocation.PNG)
 
 ## Editing the gulp.js file
 Depending on how you are compiling your scss files you may need to add the following to your gulp file like so
@@ -121,14 +121,14 @@ So as an example lets change the background dark color to *red*
 ```scss
 $bg-color-dark: $red;
 ```
-![BackgroundColorChange](/images/BackgroundColorChange.png)
+![BackgroundColorChange](/images/BackgroundColorChange.PNG)
 
 Lets also change the background medium color to green
 
 ```scss
 $bg-color-medium: $green;
 ```
-![BackgroundMediumColorChange](/images/BackgroundMediumColorChange.png)
+![BackgroundMediumColorChange](/images/BackgroundMediumColorChange.PNG)
 
 As you can see making changes to these settings makes changes throughout the manager.
 
@@ -147,7 +147,7 @@ $sitemap-item-type-color: $text-black;
 $sitemap-item-date-color: $text-black;
 ```
 
-![SitemapItem](/images/SitemapItem.png)
+![SitemapItem](/images/SitemapItem.PNG)
 
 # Final Notes
 This boilerplate is by no means a complete solution but more designed to allow a color scheme to be quickly applied to the manager.

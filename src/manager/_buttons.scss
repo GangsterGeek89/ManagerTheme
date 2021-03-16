@@ -1,0 +1,144 @@
+﻿@import "theme";
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem $bg-color-light;
+}
+
+.btn {
+    &.btn-primary {
+        background-color: $btn-primary-bg-color;
+        color: $btn-primary-color;
+        border-color: $btn-primary-border-color;
+
+        &:focus {
+            box-shadow: $btn-primary-box-shadow-focus;
+        }
+
+        &:not(:disabled):not(.disabled):active {
+            color: $btn-primary-color-active;
+            background-color: $btn-primary-bg-color-active;
+            border-color: $btn-primary-border-color-active;
+        }
+    }
+
+    &.btn-danger {
+        background-color: $btn-danger-bg-color;
+        color: $btn-danger-color;
+        border-color: $btn-danger-border-color;
+
+        &:focus {
+            box-shadow: $btn-danger-box-shadow-focus;
+        }
+
+        &:not(:disabled):not(.disabled):active {
+            color: $btn-danger-color-active;
+            background-color: $btn-danger-bg-color-active;
+            border-color: $btn-danger-border-color-active;
+        }
+    }
+
+    &.btn-white {
+        color: $btn-white-color;
+    }
+
+    &.btn-light {
+        color: $btn-light-color;
+        background-color: $btn-light-bg-color;
+        border-color: $btn-light-border-color;
+    }
+}
+
+.close {
+    color: $close-color;
+    text-shadow: $close-text-shadow;
+
+    &:hover {
+        color: $close-color-hover;
+    }
+}
+
+.btn-group {
+    .dropdown-menu {
+        background: $dropdown-menu-bg;
+        border: $dropdown-menu-border;
+
+        label {
+            color: $dropdown-menu-label-color;
+        }
+
+        .dropdown-divider {
+            border-color: $dropdown-menu-divider-color;
+        }
+
+        .dropdown-item {
+            color: $dropdown-menu-color;
+
+            &.active, &:active {
+                color: $dropdown-menu-color-active;
+                background-color: $dropdown-menu-bg-color-active;
+            }
+
+            &:hover {
+                color: $dropdown-menu-color-hover;
+                background-color: $dropdown-menu-bg-color-hover;
+            }
+        }
+    }
+}
+
+/* Actions */
+.actions {
+    a {
+
+        &:hover, &:focus {
+            background-color: $actions-bg-color-hover;
+            color: $actions-color-hover;
+        }
+
+        &.danger {
+            color: $actions-danger-color;
+
+            &:hover, &:focus {
+                background-color: $actions-danger-bg-color-hover;
+                color: $actions-danger-color-hover;
+            }
+        }
+
+        &.success {
+            color: $actions-success-color;
+
+            &:hover, &:focus {
+                background-color: $actions-success-bg-color-hover;
+                color: $actions-success-color-hover;
+            }
+        }
+    }
+}
+
+.btn-success {
+    background-color: $actions-success-bg-color-hover;
+
+    &:hover {
+        background-color: darken($actions-success-bg-color-hover, 5%);
+    }
+}
+
+.btn-danger {
+    background-color: $actions-danger-bg-color-hover;
+
+    &:hover {
+        background-color: darken($actions-danger-bg-color-hover, 5%);
+    }
+}
+
+button.switch {
+    background-color: $switch-bg-color;
+    border: 1px solid $switch-border-color;
+
+    span {
+        background: $switch-border-thumb-bg-color;
+    }
+
+    &[aria-pressed=true] {
+        background: $switch-bg-active-color;
+    }
+}

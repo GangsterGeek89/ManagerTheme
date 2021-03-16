@@ -1,0 +1,75 @@
+﻿@import "theme";
+
+.block {
+    &.block-group {
+        background: $block-group-bg;
+
+        .block-header {
+            color: $block-header-color;
+        }
+
+        .block {
+            background: $block-group-block-bg;
+        }
+
+        .actions {
+            .btn {
+                background: $actions-bg-color;
+            }
+        }
+
+
+        .list-group-item {
+            background: $block-group-block-bg;
+            border-color: $block-group-list-item-border-color;
+
+            a {
+                color: $block-group-color;
+            }
+
+            .handle {
+                color: $block-group-list-item-handle-color;
+                border-color: $block-group-list-item-border-color;
+            }
+
+            &.active {
+                border-color: $block-group-list-item-border-color;
+
+                .handle {
+                    border-color: $block-group-list-item-border-color;
+                }
+            }
+        }
+    }
+
+    &.block-group-horizontal, &.block-group-vertical {
+        .block-group-header {
+            //background: yellow;
+        }
+    }
+
+
+    &.block-group-horizontal {
+        .block {
+            .block-header {
+                background: $block-group-bg;
+
+                .actions {
+                    .btn {
+                        &.danger {
+                            &:hover {
+                                background: $btn-danger-bg-color;
+                            }
+                        }
+
+                        &.handle {
+                            &:hover {
+                                background: $btn-primary-bg-color-active;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

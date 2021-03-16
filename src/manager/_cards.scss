@@ -1,0 +1,70 @@
+﻿@import "theme";
+
+.card {
+    .card-header {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .card-body {
+        background: $card-body-bg;
+    }
+
+    &.active {
+        overflow: visible !important;
+    }
+
+    &.card-sm {
+        .card-body {
+            padding: .5rem;
+        }
+    }
+}
+
+.bg-light {
+    .accordion {
+        .card-header {
+            background: $white;
+        }
+
+        .card-body {
+            border: solid 2px $white;
+            border-radius: 0;
+        }
+    }
+}
+
+.card {
+    .card-header {
+        background-color: $card-list-group-item-header-bg-color;
+    }
+
+    .card-body {
+
+        .list-group {
+
+            .list-group-item {
+                border-color: $card-list-group-item-border-color;
+                background-color: $card-list-group-item-bg-color;
+                color: $card-list-group-item-color;
+
+                .text-secondary {
+                    color: $card-list-group-item-secondary-text-color !important;
+                }
+            }
+        }
+    }
+}
+
+#config {
+
+    .card-body {
+
+        .list-group {
+
+            .list-group-item {
+                border-color: $card-list-group-item-border-color;
+            }
+        }
+    }
+}

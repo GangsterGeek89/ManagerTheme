@@ -1,0 +1,29 @@
+﻿@import "theme";
+
+.dropzone-container {
+    .media {
+        &.dz-processing {
+            .progress-bar {
+                background-color: $dropzone-container-media-processing-bg-color;
+            }
+        }
+
+        &.dz-success {
+            .progress-bar {
+                background-color: $dropzone-container-media-success-bg-color;
+            }
+        }
+
+        &.dz-error {
+            .progress-bar {
+                background-color: $dropzone-container-media-error-bg-color;
+            }
+        }
+    }
+}
+
+.dropzone {
+    color: $dropzone-color;
+    background-color: $dropzone-bg-color;
+    border: $dropzone-border;
+}

@@ -1,0 +1,40 @@
+﻿@import "theme";
+
+.top {
+    .breadcrumb {
+        background: $breadcrumb-bg;
+        color: $breadcrumb-color;
+        padding: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        .breadcrumb-item {
+            a {
+                color: $breadcrumb-color;
+            }
+
+            &.active {
+                color: $breadcrumb-color-active;
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    background: $breadcrumb-bg;
+    color: $breadcrumb-color;
+
+    .folder {
+        a {
+            color: $breadcrumb-color;
+        }
+
+        &:after {
+            color: $breadcrumb-divider-color;
+        }
+
+        i {
+            color: $breadcrumb-icon-color;
+        }
+    }
+}

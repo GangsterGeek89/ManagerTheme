@@ -1,0 +1,92 @@
+﻿@import "theme";
+
+/* Nav */
+.nav-pills {
+    &.nav-pills-card {
+        background: $nav-pills-bg;
+        /*padding: $nav-pills-card-padding;*/
+        .nav-link {
+            color: $nav-pills-color;
+            i {
+                /*margin-right: $nav-pills-card-link-icon-mr;*/
+            }
+
+            &.active {
+                background: $nav-pills-bg-active;
+                color: $nav-pills-color-active;
+            }
+        }
+    }
+}
+
+/* Topnav */
+.top {
+    background: $top-bg;
+
+    .top-nav {
+        background: $top-nav-bg;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: $navbar-bg-color !important;
+    box-shadow: $navbar-box-shadow;
+
+    &.navbar-left {
+
+        .nav-item {
+            a {
+                color: $navbar-item-color;
+
+                &:hover {
+                    background: $navbar-item-bg-color-hover;
+                    color: $navbar-item-color-hover;
+                }
+
+                i {
+                    color: $navbar-item-icon-color;
+                }
+            }
+
+            &.nav-header {
+                background-color: $navbar-header-bg-color;
+                border-top: solid 1px $navbar-header-border-color;
+
+                i {
+                    color: $navbar-header-icon-color;
+                }
+
+                span, a {
+                    color: $navbar-header-text-color;
+                }
+
+                a {
+                    &:hover {
+                        background: $navbar-header-link-bg-color-hover;
+                        color: $navbar-header-link-color-hover;
+
+                        i {
+                            color: $navbar-header-link-icon-color-hover;
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                a {
+                    background: $navbar-item-bg-active;
+                    color: $navbar-item-color-active;
+
+                    &:after {
+                        border-right-color: $navbar-item-arrow-color-active;
+                    }
+
+                    i {
+                        color: $navbar-item-icon-color-active;
+                    }
+                }
+            }
+        }
+    }
+}

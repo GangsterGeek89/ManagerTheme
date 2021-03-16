@@ -1,0 +1,33 @@
+﻿@import "theme";
+
+.sitemap-item {
+    background: $sitemap-item-bg;
+
+    .handle {
+        color: $sitemap-item-handle-color;
+        border-right: $sitemap-item-handle-border-right;
+    }
+
+    .actions {
+
+        .expand {
+            background: $sitemap-item-expand-bg;
+            color: $sitemap-item-expand-color;
+        }
+    }
+
+    .type {
+        color: $sitemap-item-type-color;
+    }
+
+    .date {
+        color: $sitemap-item-date-color;
+    }
+
+    .link {
+
+        a, span.title {
+            color: $sitemap-item-link-color;
+        }
+    }
+}

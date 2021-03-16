@@ -1,0 +1,46 @@
+﻿@import "theme";
+
+.modal-backdrop {
+    z-index: 3000;
+}
+
+.modal {
+    z-index: 3010;
+}
+
+.modal-dialog {
+    .modal-header {
+        background: $modal-header-bg;
+    }
+
+    .nav-tabs {
+        background-color: $modal-nav-tabs-bg;
+        border-color: $modal-border-color;
+
+        .nav-link {
+            color: $modal-nav-link-color;
+
+            &:hover {
+                border-color: $modal-nav-link-border-color-hover;
+            }
+
+            &.active {
+                background-color: $modal-nav-link-bg-color-active;
+                color: $modal-nav-link-color-active;
+                border-color: $modal-nav-link-border-color-active;
+            }
+        }
+    }
+
+    .modal-body {
+        background-color: $modal-body-bg !important;
+
+        &.bg-light {
+            background-color: $modal-body-bg !important;
+        }
+    }
+
+    .modal-footer {
+        background: $modal-header-bg;
+    }
+}

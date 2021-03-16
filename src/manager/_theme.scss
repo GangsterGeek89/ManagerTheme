@@ -1,0 +1,305 @@
+﻿/* Color Pallete */
+$xiketic: rgb(11, 6, 14);
+$ksu-purple: rgb(96, 34, 150);
+$russian-violet: rgb(53, 19, 83);
+$telemagenta: rgb(196, 52, 119);
+
+$white: #fff;
+$black: #000;
+$blue: rgb(30, 109, 174);
+$red: rgb(175, 32, 32);
+$green: rgb(50, 135, 49);
+
+
+/**********************************************/
+/* Quick Settings */
+$bg-color-dark: $xiketic;
+$bg-color-medium: $russian-violet;
+$bg-color-light: $ksu-purple;
+
+$border-color-dark: $xiketic;
+$border-color-medium: $russian-violet;
+$border-color-light: $ksu-purple;
+
+$text-white: $white;
+$text-light: $telemagenta;
+$text-medium: $russian-violet;
+$text-dark: $xiketic;
+$text-black: $black;
+$muted-text: $telemagenta;
+
+$code-text-color: $text-light;
+
+$info: $blue;
+$success: $green;
+$danger: $red;
+
+/**********************************************/
+
+// ** Layout
+$body-background-color: $bg-color-dark;
+$body-default-text-color: $text-white;
+
+// ** Empty Info
+$empty-info-color: $muted-text;
+$empty-info-border-color: $bg-color-light;
+
+// ** Sortable Placeholder
+$sortable-placeholder-bg: lighten($bg-color-dark, 10%);
+$sortable-placeholder-border-color: $border-color-light;
+
+// ** Buttons
+$btn-primary-bg-color: $bg-color-medium;
+$btn-primary-border-color: $border-color-dark;
+$btn-primary-box-shadow-focus: 0 0 0 0.2rem lighten($bg-color-dark, 5%);
+$btn-primary-color-active: $text-white;
+$btn-primary-bg-color-active: darken($bg-color-medium, 5%);
+$btn-primary-border-color-active: $border-color-dark;
+$btn-primary-color: $text-white;
+
+$btn-danger-bg-color: $danger;
+$btn-danger-border-color: $danger;
+$btn-danger-box-shadow-focus: 0 0 0 0.2rem lighten($danger, 5%);
+$btn-danger-color-active: $text-white;
+$btn-danger-bg-color-active: darken($danger, 5%);
+$btn-danger-border-color-active: $danger;
+$btn-danger-color: $text-white;
+
+$dropdown-menu-bg: $bg-color-dark;
+$dropdown-menu-border: 1px solid $border-color-light;
+$dropdown-menu-label-color: $text-white;
+$dropdown-menu-divider-color: $border-color-light;
+$dropdown-menu-color: $text-white;
+$dropdown-menu-color-active: $text-white;
+$dropdown-menu-bg-color-active: $bg-color-light;
+$dropdown-menu-color-hover: $text-white;
+$dropdown-menu-bg-color-hover: $bg-color-light;
+$btn-white-color: $text-light;
+
+$btn-light-color: $text-dark;
+$btn-light-bg-color: $bg-color-light;
+$btn-light-border-color: $border-color-dark;
+
+$close-color: lighten($text-light, 15%);
+$close-color-hover: lighten($text-light, 25%);
+$close-text-shadow: 0 1px 0 $bg-color-light;
+
+// Switch
+$switch-bg-color: $bg-color-dark;
+$switch-bg-active-color: $bg-color-light;
+$switch-border-color: $border-color-light;
+$switch-border-thumb-bg-color: $bg-color-medium;
+
+// ** Topnav
+$top-bg: $bg-color-medium;
+$top-nav-bg: rgba($bg-color-medium,.6);
+
+// ** Breadcrumb
+$breadcrumb-bg: $bg-color-medium;
+$breadcrumb-color: $text-white;
+$breadcrumb-color-active: lighten($text-light, 14%);
+$breadcrumb-icon-color: $text-light;
+$breadcrumb-divider-color: $text-light;
+
+/* Actions */
+$actions-bg-color: $bg-color-medium;
+$actions-bg-color-hover: $bg-color-dark;
+$actions-color-hover: $text-white;
+$actions-danger-bg-color-hover: $danger;
+$actions-danger-color: $danger;
+$actions-danger-color-hover: $text-white;
+$actions-success-bg-color-hover: $success;
+$actions-success-color: $success;
+$actions-success-color-hover: $text-white;
+
+// ** Navbar 
+$navbar-bg-color: $bg-color-medium;
+$navbar-box-shadow: 1px 0 3px rgba($bg-color-light, .3);
+
+$navbar-item-color: $text-white;
+$navbar-item-icon-color: $text-dark;
+
+$navbar-item-bg-color-hover: $bg-color-light;
+$navbar-item-color-hover: $text-white;
+
+$navbar-item-bg-active: $bg-color-light;
+$navbar-item-color-active: $text-white;
+$navbar-item-icon-color-active: $text-dark;
+$navbar-item-arrow-color-active: $text-dark;
+
+$navbar-header-bg-color: darken($bg-color-medium,12%);
+$navbar-header-border-color: $border-color-light;
+$navbar-header-icon-color: $text-light;
+$navbar-header-text-color: $text-white;
+// Navbar Logout Header Link
+$navbar-header-link-bg-color-hover: darken($bg-color-medium,8%);
+$navbar-header-link-color-hover: $text-white;
+$navbar-header-link-icon-color-hover: $text-dark;
+
+// ** Nav Pills
+$nav-pills-bg: $bg-color-medium;
+$nav-pills-color: $text-white;
+$nav-pills-color-active: $text-white;
+$nav-pills-bg-active: $bg-color-light;
+
+// ** Date Picker
+$date-picker-calendar-bg: $bg-color-dark;
+$date-picker-calendar-border-color: $border-color-light;
+$date-picker-calendar-selected-color: $text-white;
+$date-picker-calendar-selected-bg: $bg-color-medium;
+$date-picker-calendar-border-color-hover: $border-color-light;
+
+// ** Sitemap Settings
+$sitemap-item-bg: $bg-color-medium;
+$sitemap-item-handle-color: $text-light;
+$sitemap-item-handle-border-right: solid 2px $border-color-dark;
+$sitemap-item-link-color: $text-white;
+$sitemap-item-type-color: $text-white;
+$sitemap-item-date-color: $text-white;
+$sitemap-item-expand-color: $text-white;
+$sitemap-item-expand-bg: $bg-color-dark;
+
+// ** Media Upload Settings
+$media-upload-thumbnail-border-bottom: 1px solid $bg-color-medium;
+$media-upload-thumbnail-icon: $bg-color-medium;
+$media-upload-img-bg-color: teal;
+$media-upload-processing-progress-bg-color: $info;
+$media-upload-processing-progress-color: $info;
+$media-upload-success-progress-bg-color: $success;
+$media-upload-success-progress-color: $success;
+$media-upload-error-progress-bg-color: $danger;
+$media-upload-error-progress-color: $danger;
+
+// ** Folder Settings
+$folder-container-bt: solid 1px $border-color-dark;
+$folder-link-color: $text-white;
+$folder-link-icon-color: $text-light;
+$folder-link-bg-active: $bg-color-medium;
+$folder-link-color-active: $text-white;
+$folder-link-icon-color-active: $text-dark;
+$folder-link-badge-bg-color: $bg-color-light;
+$folder-link-badge-color: $text-white;
+$folder-link-badge-bg-color-active: $bg-color-dark;
+$folder-link-badge-color-active: $text-white;
+
+// ** Dropzone Settings
+$dropzone-container-media-processing-bg-color: $info;
+$dropzone-container-media-success-bg-color: $success;
+$dropzone-container-media-error-bg-color: $danger;
+
+$dropzone-color: $text-light;
+$dropzone-bg-color: $bg-color-dark;
+$dropzone-border: dashed 2px $border-color-light;
+
+// ** Thumbnail Settings
+$thumbnail-img-bg: $bg-color-medium;
+$thumbnail-img-droppable-bg: darken($bg-color-medium, 10%);
+$thumbnail-icon-bg: transparent;
+$thumbnail-icon-color: $text-dark;
+$thumbnail-img-border-color: $border-color-medium;
+$thumbnail-text-bg: $bg-color-medium;
+$thumbnail-media-delete-border: solid 2px $border-color-dark;
+$thumbnail-media-delete-bg: rgba($bg-color-medium,.45);
+$thumbnail-media-delete-color: $danger;
+$thumbnail-media-delete-bg-hover: $danger;
+$thumbnail-media-delete-color-hover: $text-white;
+
+// ** Table Settings
+$table-header-bg-color: $bg-color-medium;
+$table-header-color: $text-white;
+$table-body-row-bg-color: $bg-color-dark;
+$table-body-row-border-top: solid 2px $border-color-medium;
+$table-body-row-text-color: $text-white;
+$table-body-row-title-color: $info;
+$table-body-row-title-icon-color: $text-light;
+
+// ** Card Settings
+$card-body-bg: $bg-color-dark;
+
+// ** Blocks
+$block-header-color: $text-light;
+$block-border-color-hover: $border-color-light;
+$block-danger-border-color-hover: $danger;
+$block-collapsed-border-color: $border-color-light;
+$block-actions-btn-bg-color: $bg-color-light;
+$block-actions-btn-bg-color-hover: $bg-color-medium;
+$block-actions-btn-color: $text-white;
+$block-actions-btn-add-color: $success;
+$block-actions-btn-add-color-hover: $text-white;
+$block-actions-btn-add-bg-color-hover: $success;
+$block-actions-btn-danger-color: $danger;
+$block-actions-btn-danger-color-hover: $text-white;
+$block-actions-btn-danger-bg-color-hover: $danger;
+$block-media-picker-bg: rgba($bg-color-medium,.3);
+$block-media-picker-body-bg: $bg-color-dark;
+$block-media-picker-slide-in-border: 1px solid $border-color-light;
+
+// Html Block
+$html-block-bg: $bg-color-medium;
+
+// Quote Block
+$quote-block-placeholder-color: $muted-text;
+$quote-block-color: $text-white;
+
+// Image Block
+$image-block-empty-bg: $bg-color-dark;
+$image-block-primary-image-modal-bg: $bg-color-dark;
+$image-block-primary-image-modal-border: 1px solid $border-color-light;
+$image-block-primary-image-modal-border-hover: 1px solid $border-color-medium;
+$image-block-aspect-menu-img-bg: $bg-color-dark;
+$image-block-aspect-menu-img-border-color: $bg-color-light;
+$image-block-aspect-menu-img-bg-active: $bg-color-dark;
+$image-block-aspect-menu-img-border-color-active: $bg-color-dark;
+
+// Page, Post, Content Block
+$page-post-content-block-bg: $bg-color-dark;
+
+// Block Group
+
+// Separator Block
+$separator-block-color: $border-color-light;
+
+// Text Block
+$text-block-empty-bg-color: $bg-color-medium;
+
+// Block Add
+$block-add-bg: $bg-color-light;
+$block-add-color: $text-dark;
+$block-add-border-color: $border-color-light;
+$block-add-border-color-hover: $border-color-light;
+$block-add-color-hover: $text-dark;
+
+// ** Block Group
+$block-group-color: $text-white;
+$block-group-bg: $bg-color-dark;
+$block-group-header-color: $text-dark;
+$block-group-block-bg: $bg-color-medium;
+$block-group-list-item-bg: $bg-color-medium;
+$block-group-list-item-border-color: $border-color-light;
+$block-group-list-item-handle-color: $text-light;
+
+// ** Modals
+$modal-header-bg: $bg-color-medium;
+$modal-nav-tabs-bg: $bg-color-dark;
+$modal-nav-link-color: $text-white;
+$modal-nav-link-color-active: $text-white;
+$modal-nav-link-bg-color-active: $bg-color-medium;
+$modal-nav-link-border-color-active: $border-color-light;
+$modal-nav-link-border-color-hover: $border-color-light;
+$modal-body-bg: $bg-color-dark;
+$modal-border-color: $border-color-light;
+
+// ** Fields
+$field-color: $text-white;
+$field-bg-color: $bg-color-dark;
+$field-bg-color-focus: $bg-color-dark;
+$field-border-color: $border-color-light;
+$field-border-color-focus: $border-color-light;
+$field-border-box-shadow-focus: 0 0 0 0.2rem rgba($bg-color-light, .25);
+
+// ** Config
+$card-list-group-item-color: $text-white;
+$card-list-group-item-secondary-text-color: $text-white;
+$card-list-group-item-header-bg-color: $bg-color-medium;
+$card-list-group-item-bg-color: $bg-color-dark;
+$card-list-group-item-border-color: $border-color-light;

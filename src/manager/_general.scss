@@ -1,0 +1,16 @@
+@import "theme";
+
+body {
+    background-color: $body-background-color;
+    color: $body-default-text-color;
+}
+
+.empty-info {
+    color: $empty-info-color;
+    border-color: $empty-info-border-color;
+}
+
+.sortable-placeholder {
+    background: $sortable-placeholder-bg !important;
+    border-color: $sortable-placeholder-border-color !important;
+}

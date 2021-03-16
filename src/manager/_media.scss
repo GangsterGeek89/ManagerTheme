@@ -1,0 +1,150 @@
+﻿@import "theme";
+
+.media-upload {
+    border-bottom: $media-upload-thumbnail-border-bottom;
+
+    .media-thumbnail {
+        > i {
+            color: $media-upload-thumbnail-icon;
+        }
+    }
+
+    img {
+        background-color: $media-upload-img-bg-color;
+    }
+
+    .status {
+        color: blue;
+    }
+
+    &.dz-processing {
+        .progress-bar {
+            background-color: $media-upload-processing-progress-bg-color;
+        }
+
+        .status {
+            color: $media-upload-processing-progress-color;
+        }
+    }
+
+    &.dz-success {
+        .progress-bar {
+            background-color: $media-upload-success-progress-bg-color;
+        }
+
+        .status {
+            color: $media-upload-success-progress-color;
+        }
+    }
+
+    &.dz-error {
+        .progress-bar {
+            background-color: $media-upload-error-progress-bg-color;
+        }
+
+        .status {
+            color: $media-upload-error-progress-color;
+        }
+    }
+}
+
+
+/* Folders */
+.folder-container {
+    border-top: $folder-container-bt;
+}
+
+.folders {
+
+    li {
+        i {
+            color: $folder-link-icon-color;
+        }
+
+        a {
+            color: $folder-link-color;
+
+            i {
+                color: $folder-link-icon-color;
+            }
+
+            .badge {
+                background-color: $folder-link-badge-bg-color;
+                color: $folder-link-badge-color;
+            }
+        }
+
+        &.active {
+            > a {
+                background: $folder-link-bg-active;
+                color: $folder-link-color-active;
+
+                i {
+                    color: $folder-link-icon-color-active;
+                }
+
+                .badge {
+                    background-color: $folder-link-badge-bg-color-active;
+                    color: $folder-link-badge-color-active;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Thumbnail */
+.thumbnail {
+
+    img {
+        background: $thumbnail-img-bg;
+    }
+
+    &.droppable {
+        &.active > * {
+            background: $thumbnail-img-droppable-bg;
+
+            img {
+                background: yellow;
+            }
+        }
+    }
+
+    &.selected {
+        > *:not(.btn) {
+            color: yellow;
+            border-color: dodgerblue;
+        }
+
+        .thumbnail-text {
+            background: wheat;
+        }
+    }
+
+    .thumbnail-icon {
+        background: $thumbnail-icon-bg;
+        color: $thumbnail-icon-color;
+    }
+
+    .thumbnail-image {
+        border-color: $thumbnail-img-border-color;
+        background: $thumbnail-img-bg;
+    }
+
+    .thumbnail-text {
+        background: $thumbnail-text-bg;
+        color: $white;
+    }
+
+    .media-delete {
+        border: $thumbnail-media-delete-border;
+        background: $thumbnail-media-delete-bg;
+        color: $thumbnail-media-delete-color;
+
+        &:hover {
+            background: $thumbnail-media-delete-bg-hover;
+            color: $thumbnail-media-delete-color-hover;
+        }
+    }
+}

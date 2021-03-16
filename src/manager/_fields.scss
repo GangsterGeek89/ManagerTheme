@@ -1,0 +1,59 @@
+﻿@import "theme";
+
+.form-control {
+    background-color: $field-bg-color;
+    border-color: $field-border-color;
+    color: $field-color;
+
+    &.form-control-lg {
+        border-color: $field-border-color !important;
+    }
+
+    &.title {
+        border-color: $field-border-color;
+    }
+
+    &:focus {
+        background-color: $field-bg-color-focus;
+        border-color: $field-border-color-focus;
+        box-shadow: $field-border-box-shadow-focus;
+        color: $field-color;
+    }
+
+    &:disabled {
+        background-color: $field-bg-color;
+    }
+}
+
+.color-field {
+    .color-preview {
+        border-color: $field-border-color;
+    }
+}
+
+.html-field {
+    background: $field-bg-color;
+    border-color: $field-border-color;
+
+    &.empty:not(:focus-within) {
+        background-color: $field-bg-color;
+    }
+}
+
+.media-field {
+    .media-picker {
+        .card {
+            border: none;
+
+            .card-body {
+                background: $field-bg-color;
+                border-color: $field-border-color;
+
+                a {
+                    color: $field-color;
+                }
+            }
+        }
+    }
+}
+

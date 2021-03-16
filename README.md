@@ -4,9 +4,12 @@ A starter template/boilerplate for quickly styling the manager in piranha cms.
 *No Margins, Paddings or Positions was harmed during the making of this boiler plate*
 
 ## Screenshots
-![pages](/images/pages.png)
-![pages](/images/PageEdit.png)
-![pages](/images/Config.png)
+|         |            |
+| ------------- |:-------------:|
+| ![pages2](/images/pages.png)     | ![pageedit](/images/PageEdit.png) |
+| ![config](/images/Config.png)     | ![media](/images/Media.png)      |
+
+
 
 # Getting Started
 ## Add the files to the project
@@ -64,10 +67,10 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApi api
 }
 ```
 
-# 1: Colors 
+# Colors 
 Color pallete used in this style can be found on [COOLORS.CO](https://coolors.co/af2020-328731-1e6dae-0b060e-351353-602296-c43477)
 
-![filelocation](/images/ColorPallete.png)
+![ColorPallete](/images/ColorPallete.png)
 
 ### Delete and/or change these colors to match your color pallete
 
@@ -88,7 +91,7 @@ $red: rgb(175, 32, 32);
 $green: rgb(50, 135, 49);
 ```
 
-# 2: Quick Settings
+# Quick Settings
 These settings are used throughout *'manager/_theme.scss'* and allow for quickly making changes to the managers appearance. The above color pallete variables are only referenced in this section and the below variables and then used throughout the rest of the boilerplate making it easy to quickly adjust a color =)
 
 ```scss
@@ -118,20 +121,20 @@ So as an example lets change the background dark color to *red*
 ```scss
 $bg-color-dark: $red;
 ```
-![filelocation](/images/BackgroundColorChange.png)
+![BackgroundColorChange](/images/BackgroundColorChange.png)
 
 Lets also change the background medium color to green
 
 ```scss
 $bg-color-medium: $green;
 ```
-![filelocation](/images/BackgroundMediumColorChange.png)
+![BackgroundMediumColorChange](/images/BackgroundMediumColorChange.png)
 
 As you can see making changes to these settings makes changes throughout the manager.
 
 *Setting a random color to these settings will allow you to quickly identify what is being used where*
 
-# 3: Further Changes
+# Further Changes
 
 Further changes can be made by adjusting the relevant variable in *'manager/_theme.scss'* these variables have been names with as descriptive names as i could possibly come up with so hopefully wont be to hard to find what you are looking for. As an example lets make a change to the sitemap item and change the background color to *yellow* and foreground color to *black*
 
@@ -144,6 +147,9 @@ $sitemap-item-type-color: $text-black;
 $sitemap-item-date-color: $text-black;
 ```
 
-![filelocation](/images/SitemapItem.png)
+![SitemapItem](/images/SitemapItem.png)
 
-# 4: Notes
+# Final Notes
+This boilerplate is by no means a complete solution but more designed to allow a color scheme to be quickly applied to the manager.
+
+This has also been put together quickly and will in future be refactored to be a more complete solution.
